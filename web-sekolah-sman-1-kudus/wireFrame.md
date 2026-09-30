@@ -1,32 +1,23 @@
-# Wire Frame Website SMAN 1 Kudus
-## 1. Beranda
-Pada halaman ini, terdapat beberapa konten:
+# Dokumentasi Website SMA Asal 
+> Nama  : Azka Fairus Syamsa
+> NRP   : 5025251067
+> Kelas : PWeb (B) 2026
+Berikut adalah website SMA Asal mahasiswa. Sebagai contoh, saya membuat website untuk SMAN 1 Kudus. Website dibuat menggunakan HTML, CSS, dan JavaScript (tanpa back-end).
 
-a. Header
 
-b. Navigation Menu
+## Wire Frame Website SMAN 1 Kudus
+### 1. Beranda
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/ce1a8149-de37-4883-89a9-77e4adb8db06" />
 
-c. Sambutan Kepala Sekolah
+### 2. Profil 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/182884ae-37cf-4836-b502-a1c3ddd92630" />
 
-d. Visi Misi Sekolah
+### 3. Berita
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/ed66bfae-971d-4d02-8962-bf295279df0f" />
 
-e. Footer
+### 4. Prestasi
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/0dc38a81-2370-4c3e-9531-df7d03390a41" />
 
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/c7f3a96d-9b40-49dc-86cd-050a2968a64c" />
+### 5. Hubungi Kami
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/286bbc14-7864-49c5-9d67-15d778b961ac" />
 
-## 2. Profil Sekolah
-Pada halaman ini, terdapat beberapa konten:
-
-a. Header
-
-b. Navigation Menu
-
-c. Sambutan Kepala Sekolah
-
-d. Profil Singkat Sekolah
-
-e. Galeri Kegiatan
-
-f. Berita Terbaru
-
-g. Footer
