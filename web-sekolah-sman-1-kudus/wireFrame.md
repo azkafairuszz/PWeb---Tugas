@@ -12,7 +12,7 @@ Berikut adalah website SMA Asal mahasiswa. Sebagai contoh, saya membuat website 
 Link Website Sekolah: https://sman1kudus.netlify.app/
 
 
-## Wire Frame Website SMAN 1 Kudus
+## **Wire Frame Website SMAN 1 Kudus**
 ### 1. Beranda
 <img width="902" height="1024" alt="image" src="https://github.com/user-attachments/assets/a158b105-c617-40b2-86fe-afe9108527f4" />
 
@@ -32,7 +32,7 @@ Link Website Sekolah: https://sman1kudus.netlify.app/
 ### 5. Hubungi Kami
 <img width="1024" height="925" alt="image" src="https://github.com/user-attachments/assets/9e907895-1785-4f96-ad3a-162fe17c6379" />
 
-1. Struktur Proyek
+## **Struktur Proyek**
  
 Di dalam proyek ini ada 5 halaman utama, 1 stylesheet global, 2 file JavaScript, dan 1 folder aset gambar:
  
@@ -85,7 +85,7 @@ Folder lokal yang menampung seluruh kebutuhan visual: `logo/logo-smasa-kudus.jpg
 
 
 
-## Palet Warna & Karakter Desain
+## **Palet Warna & Karakter Desain**
  
 Desain website ini mengusung gaya **modern** dengan tiga warna identitas sekolah:
  
@@ -97,7 +97,7 @@ Dipakai untuk latar header dan footer, overlay gelap pada hero, serta gradasi ba
 Dipakai sebagai warna penegas: garis bawah header, label akreditasi, lencana peringkat prestasi, dan garis atas kartu statistik.
 Warna pendukung: putih tulang `#faf8f6` sebagai latar halaman, putih `#ffffff` untuk latar kartu, serta abu-abu `#666666` untuk teks sekunder seperti tanggal. Tipografi memakai font **Inter** dari Google Fonts.
  
-## Catatan Teknis & Trik Layouting
+## **Catatan Teknis & Trik Layouting**
  
 ### A. Sticky Navigation Bar
 Header navigasi dibuat tetap berada di posisi atas layar (`position: sticky; top: 0;`) dengan `z-index: 9` dan garis bawah kuning. Menu halaman yang sedang dibuka ditandai otomatis lewat atribut `data-page` pada `<body>`. Menu **Profil** memiliki dropdown (Sejarah, Visi & Misi, Guru & Karyawan) yang muncul saat di-hover.
@@ -123,7 +123,7 @@ Tidak ada library JavaScript atau ikon tambahan. Satu-satunya sumber eksternal a
 * Embed Google Maps pada halaman `kontak.html`
 Bila tidak ada koneksi internet, website tetap tampil dengan font bawaan sistem, tetapi peta tidak akan termuat.
  
-## Cara Memperbarui Konten
+## **Cara Memperbarui Konten**
  
 Semua perubahan konten dilakukan di `js/data.js`:
  
@@ -140,7 +140,7 @@ Untuk menambah berita, simpan gambarnya di `assets/images/berita/`, lalu tambahk
  
 Teks sambutan kepala sekolah dan statistik siswa pada Beranda ada langsung di `index.html`.
  
-## Cara Menjalankan Proyek
+## **Cara Menjalankan Proyek**
  
 1. Pastikan file `index.html`, `profil.html`, `berita.html`, `prestasi.html`, dan `kontak.html` berada dalam satu folder kerja, bersama folder `css/` dan `js/`.
 2. Siapkan folder `assets/images/` di lokasi yang sama beserta subfolder `logo/`, `hero/`, `profil/`, dan `berita/`. Nama file gambar harus sama persis dengan yang tercantum pada bagian 1.
