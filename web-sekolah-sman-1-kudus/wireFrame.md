@@ -2,6 +2,7 @@
 > Nama  : Azka Fairus Syamsa
 > NRP   : 5025251067
 > Kelas : PWeb (B) 2026
+
 Berikut adalah website SMA Asal mahasiswa. Sebagai contoh, saya membuat website untuk SMAN 1 Kudus. Website dibuat menggunakan HTML, CSS, dan JavaScript (tanpa back-end).
 
 
