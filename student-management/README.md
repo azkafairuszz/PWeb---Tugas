@@ -15,7 +15,7 @@ Aplikasi web sederhana untuk mengelola data mahasiswa, dibuat dengan HTML, CSS, 
 
 ## Wireframe
 
-![Wireframe Student Management](<img width="2720" height="1520" alt="wireframe_student_management_desktop" src="https://github.com/user-attachments/assets/80cc645b-c361-4952-ae29-5f2797f59678" />)
+<img width="2720" height="1520" alt="wireframe_student_management_desktop" src="https://github.com/user-attachments/assets/80cc645b-c361-4952-ae29-5f2797f59678" />
 
 ### Susunan halaman
 
