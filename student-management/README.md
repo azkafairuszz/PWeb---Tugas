@@ -11,7 +11,7 @@ Aplikasi web sederhana untuk mengelola data mahasiswa, dibuat dengan HTML, CSS, 
 | Keterangan | Link |
 | --- | --- |
 | Website (deploy) |[Link Website](https://pweb-tugas-student-management.vercel.app/) |
-| Repository kode | [Repo Github](https://github.com/azkafairuszz/PWeb---Tugas/new/main/student-management) |
+| Repository kode | [Repo Github]([https://github.com/azkafairuszz/PWeb---Tugas/new/main/student-management](https://github.com/azkafairuszz/PWeb---Tugas/tree/main/student-management)) |
 
 ## Wireframe
 
