@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Form Registrasi Mahasiswa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Registrasi Mahasiswa</h1>
+      <p class="subtitle">
+        Ketik huruf pertama nama untuk melihat rekomendasi.
+      </p>
+
+      <form id="formRegistrasi" autocomplete="off" novalidate>
+        <!-- NAMA MAHASISWA (dengan rekomendasi) -->
+        <div class="form-group">
+          <label for="nama">Nama Mahasiswa</label>
+          <input
+            type="text"
+            id="nama"
+            placeholder='Contoh: ketik "a"'
+            role="combobox"
+            aria-autocomplete="list"
+            aria-controls="daftarRekomendasi"
+            aria-expanded="false"
+          />
+          <ul id="daftarRekomendasi" class="suggestions" role="listbox"></ul>
+          <div class="hint">
+            Pilih dari rekomendasi, NIM akan terisi otomatis.
+          </div>
+        </div>
+
+        <!-- NIM -->
+        <div class="form-group">
+          <label for="nim">NIM</label>
+          <input
+            type="text"
+            id="nim"
+            placeholder="10 digit angka"
+            maxlength="10"
+            inputmode="numeric"
+          />
+        </div>
+
+        <!-- MATA KULIAH -->
+        <div class="form-group">
+          <label for="matkul">Mata Kuliah</label>
+          <select id="matkul">
+            <option value="">Pilih Mata Kuliah</option>
+          </select>
+        </div>
+
+        <!-- DOSEN (menyesuaikan mata kuliah) -->
+        <div class="form-group">
+          <label for="dosen">Dosen</label>
+          <select id="dosen" disabled>
+            <option value="">Pilih mata kuliah terlebih dahulu</option>
+          </select>
+        </div>
+
+        <button type="submit">Daftar</button>
+        <button type="reset" class="secondary" id="btnReset">Reset</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

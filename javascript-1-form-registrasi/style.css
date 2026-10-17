@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f9;
+  color: #212529;
+}
+.container {
+  max-width: 520px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+h1 {
+  font-size: 24px;
+  margin: 0 0 4px;
+}
+.subtitle {
+  margin: 0 0 24px;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+form {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+.form-group {
+  margin-bottom: 18px;
+  position: relative;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  background: #fff;
+}
+input:focus,
+select:focus {
+  outline: 2px solid #0d6efd;
+  outline-offset: 0;
+  border-color: #0d6efd;
+}
+input:disabled,
+select:disabled {
+  background: #e9ecef;
+  cursor: not-allowed;
+}
+.hint {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #6c757d;
+}
+
+/* Daftar rekomendasi nama */
+.suggestions {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin: 2px 0 0;
+  padding: 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  max-height: 220px;
+  overflow-y: auto;
+  z-index: 10;
+  display: none;
+}
+.suggestions.show {
+  display: block;
+}
+.suggestions li {
+  padding: 9px 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.suggestions li .nim {
+  color: #6c757d;
+  font-size: 13px;
+}
+.suggestions li:hover,
+.suggestions li.active {
+  background: #e7f1ff;
+}
+.suggestions mark {
+  background: #ffe69c;
+  padding: 0;
+}
+
+button {
+  padding: 10px 22px;
+  font-size: 16px;
+  color: #fff;
+  background: #0d6efd;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background: #0b5ed7;
+}
+button.secondary {
+  background: #6c757d;
+  margin-left: 6px;
+}
+button.secondary:hover {
+  background: #5c636a;
+}
