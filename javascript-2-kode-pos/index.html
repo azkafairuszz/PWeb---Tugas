@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kode Pos Indonesia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">Kode Pos Indonesia</header>
+
+    <main class="container">
+      <section class="card">
+        <p class="intro">
+          Cari kode pos di seluruh Indonesia dengan memilih provinsi, kota atau
+          kabupaten, dan kecamatan.
+        </p>
+
+        <form id="formCari" novalidate>
+          <div class="form-group">
+            <label for="provinsi">Provinsi</label>
+            <select id="provinsi">
+              <option value="">Pilih Provinsi</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="kabupaten">Kota atau Kabupaten</label>
+            <select id="kabupaten" disabled>
+              <option value="">Pilih provinsi terlebih dahulu</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="kecamatan">Kecamatan</label>
+            <select id="kecamatan" disabled>
+              <option value="">
+                Pilih kota atau kabupaten terlebih dahulu
+              </option>
+            </select>
+          </div>
+
+          <p id="pesanError" class="error" role="alert" hidden></p>
+
+          <button type="submit" id="btnCari">Cari</button>
+          <button type="reset" id="btnReset" class="secondary">Reset</button>
+        </form>
+      </section>
+
+      <section id="hasil" hidden>
+        <h2>Hasil Pencarian</h2>
+        <p id="ringkasan" class="ringkasan"></p>
+
+        <div class="info-daerah">
+          <h3>Informasi Daerah</h3>
+          <dl id="infoDaerah"></dl>
+        </div>
+
+        <div id="daftarKodePos"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Sumber data: nomor.net via repositori mrayhanfadil/kodepos-id (lisensi
+      MIT).
+    </footer>
+
+    <script src="data/provinsi.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
