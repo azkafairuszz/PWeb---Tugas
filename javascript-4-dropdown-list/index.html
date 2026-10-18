@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dynamic Drop Down List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>Dynamic Drop Down List</h1>
+        <p>
+          Pilih jenis produk, lalu daftar merk akan menyesuaikan secara
+          otomatis.
+        </p>
+      </header>
+
+      <form class="card" id="form-produk" novalidate>
+        <div class="field">
+          <label for="jenis">Jenis Produk</label>
+          <select id="jenis" name="jenis">
+            <option value="">Pilih Jenis Produk</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="merk">Merk</label>
+          <select id="merk" name="merk" disabled>
+            <option value="">Pilih Merk</option>
+          </select>
+          <small class="hint" id="hint"
+            >Pilih jenis produk terlebih dahulu.</small
+          >
+        </div>
+
+        <div class="actions">
+          <button type="submit" class="btn btn-primary">Tampilkan</button>
+          <button type="button" class="btn btn-secondary" id="btn-reset">
+            Reset
+          </button>
+        </div>
+
+        <div class="result" id="hasil" role="status" aria-live="polite" hidden>
+          <span class="result-label">Pilihan kamu</span>
+          <p class="result-text" id="hasil-teks"></p>
+        </div>
+      </form>
+
+      <footer class="footer">Dibuat dengan HTML, CSS, dan JavaScript</footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
