@@ -1,0 +1,88 @@
+/* ===== Pengaturan dasar ===== */
+body {
+  background-color: #f3f8ff;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== Navbar ===== */
+.navbar .nav-link {
+  color: #51607a;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar .nav-link:hover {
+  color: #0d6efd;
+}
+
+/* Penanda menu aktif (class "active" diberikan oleh JavaScript) */
+.navbar .nav-link.active {
+  color: #0d6efd;
+  font-weight: 600;
+  border-bottom: 2px solid #0d6efd;
+}
+
+/* ===== Hero ===== */
+.hero {
+  min-height: 460px;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8, 32, 78, 0.92) 0%,
+      rgba(8, 32, 78, 0.75) 45%,
+      rgba(8, 32, 78, 0.25) 100%
+    ),
+    url("../images/hero-perpustakaan.jpg") center / cover no-repeat;
+}
+
+/* ===== Kartu keunggulan dan layanan ===== */
+.kartu {
+  border: 1px solid #d9e3f2;
+  border-radius: 12px;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.kartu:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(13, 110, 253, 0.15);
+}
+
+.ikon {
+  font-size: 2.2rem;
+}
+
+/* ===== Statistik ===== */
+.statistik {
+  background-color: #e6f0ff;
+  border-radius: 12px;
+  color: #51607a;
+}
+
+.statistik .angka {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+/* ===== Halaman pendaftaran ===== */
+.panel-kiri {
+  background-color: #e6f0ff;
+  border-radius: 12px;
+}
+
+.avatar {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* ===== Tabel data anggota ===== */
+table th {
+  white-space: nowrap;
+}
+
+.btn-aksi {
+  width: 34px;
+  height: 34px;
+  padding: 0;
+}
