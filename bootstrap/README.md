@@ -54,6 +54,10 @@ Halaman portal berita bernama **Nusantara Kini** yang berisi ringkasan berita te
 - Button: `btn btn-primary`, `btn btn-success`
 - Utility class: `bg-light`, `bg-dark`, `text-white`, `p-3`, `mb-3`, `my-4`, `h-100`, `d-flex`, `justify-content-between`, `fw-bold`
 
+### Screenshot Website
+
+<img width="1833" height="893" alt="image" src="https://github.com/user-attachments/assets/dd840ca0-b8eb-422b-834b-8ac849656d8b" />
+
 ## 2. Login & Register Page (`bootstrap-login-register`)
 
 Halaman autentikasi dengan layout **split screen**: sisi kiri berupa gambar pemandangan pegunungan setinggi layar penuh, sisi kanan berupa form. Form Login dan Register berada di satu halaman dan dapat berganti tanpa memuat ulang halaman.
@@ -86,6 +90,12 @@ Halaman autentikasi dengan layout **split screen**: sisi kiri berupa gambar pema
 - Form: `form-floating`, `form-control`, `form-check`, `form-check-input`
 - Button: `btn btn-lg btn-primary`, `d-grid`
 - Utility class: `d-none`, `d-md-flex`, `d-flex`, `align-items-center`, `mx-auto`, `text-muted`, `text-uppercase`, `fw-bold`, `text-decoration-none`
+
+### Screenshot Website
+
+<img width="1847" height="958" alt="Screenshot 2026-11-17 161004" src="https://github.com/user-attachments/assets/555c0ae3-00a1-4fe6-867b-f8d4e6066db1" />
+
+<img width="1848" height="961" alt="Screenshot 2026-11-17 161029" src="https://github.com/user-attachments/assets/e31a5266-2f04-4ccf-8442-3f4a27b5286a" />
 
 ## Teknologi
 
