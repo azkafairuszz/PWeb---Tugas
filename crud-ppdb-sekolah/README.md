@@ -10,7 +10,7 @@ Aplikasi web sederhana untuk portal Penerimaan Peserta Didik Baru (PPDB) SMA Neg
 
 | Keterangan       | Link                                                                                    |
 | ---------------- | --------------------------------------------------------------------------------------- |
-| Website (deploy) | [Link Website](https://GANTI-DENGAN-LINK-VERCEL.vercel.app/)                            |
+| Website (deploy) | [Link Website](https://crud-ppdb-sekolah.vercel.app)                                    |
 | Repository kode  | [Repo Github](https://github.com/azkafairuszz/PWeb---Tugas/tree/main/crud-ppdb-sekolah) |
 
 ## Susunan halaman
